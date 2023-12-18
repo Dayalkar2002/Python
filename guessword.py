@@ -45,25 +45,27 @@ while level<5:
     Guess_Count=0
     Guess_Limit=3
     word=""
-    oldword=""   
-    match='false' 
+    oldword=""    
 
     while Guess_Count<Guess_Limit:
+        match=False
         word=input("Guess the word:)").lower()
-        Guess_Count+=1
-        if not (word==oldword)  :
+        if not (word==oldword):
             for i in words[level]:
                 if(word==i):
+                    Guess_Count+=1
                     score+=1
-                    word=oldword
-                    match='true'
+                    oldword=word
+                    match=True
 
         if not match:
             print("Wrong Guess Brooh") 
             lives-=1  
+
         if lives==0:
             print("Better Luck Next Time:(")
             break
+        
     if (lives==0):
         print("Lives over Game ended!!!") 
         break
