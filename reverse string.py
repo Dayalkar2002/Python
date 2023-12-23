@@ -13,4 +13,7 @@ def reverse_string(value):
         str=i+str
     print(str)
 user_input=input("Enter the value: ")
-reverse_string(user_input)        
+reverse_string(user_input)
+
+
+   

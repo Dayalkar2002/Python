@@ -6,12 +6,14 @@ def fact(n):
         return n*fact(n-1)
 print(fact(5))    
 
+
 #basic factorial
 fact_num=int(input("ener the factorial number: "))
 fact=1
 for i in range(1,fact_num+1):
     fact=fact*i
 print(fact)
+
 
 # using normal function
 def fact_num(n):

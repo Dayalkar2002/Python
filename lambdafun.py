@@ -20,3 +20,4 @@ subject_marks=[('English',98),('Science',90),("Maths",95)]
 subject_marks.sort(key=lambda x:x[0])
 print(subject_marks)
 
+

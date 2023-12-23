@@ -3,3 +3,5 @@ if str.isdigit():
     print("true")
 else:
     print("false")    
+
+    

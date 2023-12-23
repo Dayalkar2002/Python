@@ -31,5 +31,5 @@ elif(y>z and y>w and y>x):
 elif(z>w and z>x and z>y):
  print(z,"is greater")
  
-else :
+else:
  print(w,"is greater")
