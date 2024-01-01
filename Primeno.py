@@ -24,7 +24,7 @@ user_input=int(input("Enter the Number: "))
 
 def pri(user_input):
     if user_input<=1:
-        return True
+        return False
     else:
         for i in range(2,user_input):
             if user_input%i==0:
