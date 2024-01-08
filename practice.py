@@ -97,15 +97,51 @@
 
 #map()
 
-def square(x):
-    return x ** 2
+# def square(x):
+#     return x ** 2
 
-numbers = [1, 2, 3, 4, 5]
-squared= map(square, numbers)
+# numbers = [1, 2, 3, 4, 5]
+# squared= map(square, numbers)
 
-result = list(squared)
-# result = list(map(square,numbers))
+# result = list(squared)
+# # result = list(map(square,numbers))
 
-print(result)
+# print(result)
 
-print()
+# print()
+
+# sum=0
+# for i in range(1,4):
+#   for j in range(1,3):
+#     if i!=j:
+#       sum=sum+i+j
+# print(sum)      
+
+# x=4
+# y=9
+# while x<y:
+#   x=x+1
+#   y=y-1
+# print(x-y)  
+
+
+# x=8
+# y=9
+# print(x,y)
+
+    
+      
+  
+
+
+    
+    
+        
+
+
+        
+
+    
+    
+
+
