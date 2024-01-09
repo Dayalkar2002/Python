@@ -26,7 +26,22 @@ print((results))
 
   
   
+for key,values in list(results.items()):
+  if isinstance(values,list):
+    for items in values:
+      if items in ['','N/A','-']:
+        values.remove(item)
+  
+  elif isinstance (values,dict):
+    for inner_key, inner_value in list(results.items()):
+        if inner_value in ['','N/A','-']:
+          del values[inner_key]    
 
+  elif values in ['','N/A','-']:
+    del results[key]    
+
+print(json.dumps(results))   
+       
 
 
 
