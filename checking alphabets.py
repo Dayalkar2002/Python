@@ -1,6 +1,6 @@
 import string
 user_input=input("enter the Value").lower()
+user_input.replace(" ",'')
 x=set(user_input)
-x.remove(" ")
-print(user_input==set(string.ascii_lowercase))
+print(x==set(string.ascii_lowercase))
 print(string.ascii_lowercase)

@@ -7,7 +7,7 @@ if (fib_num<=0):
     print("enter number greater than 0")
 else:
     while(count_start<fib_num):
-        print(n1)
+        print(n1,end=",")
         n3=n1+n2
         n1=n2
         n2=n3
