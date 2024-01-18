@@ -24,7 +24,7 @@ x=[10,2,3,4,5,12]
 
 y=x[0]
 for i in x:
-    if i<y:
+    if i>y:
         y=i
 print(y)  
       
