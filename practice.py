@@ -130,8 +130,8 @@
 # print(x,y)
 
     
-x=[1,2,3,4,5]  
-y=[2,3,4,5,7,8,9]
+# x=[1,2,3,4,5]  
+# y=[2,3,4,5,7,8,9]
 # z=[]  
 # for i in x:
 #     for j in y:
@@ -142,13 +142,38 @@ y=[2,3,4,5,7,8,9]
 # print(z)
 
     
-    
+# i=100
+# sum=0
+# while(i<=200):
+#     if(i%2==0):
+#         sum=sum+i
+#     i=i+1
+# print(sum)    
         
 
-
+# for i in range(1,6):
+#     print(i*str(i))       
         
 
+# str=input("enter the string:- ")
+# vovels=['a','e','i','o','u','A','E','I','O','U']
+# final_str=''        
+
+# for i in range(len(str)):
+#     if str[i] not in vovels:
+#         final_str+=str[i]
     
-    
+# print(final_str)
 
 
+demo_list=[1,2,3,4,5,6,7,8,9,10]
+even_list=[]
+odd_list=[]
+
+for i in demo_list:
+    if(i%2==0):
+        even_list.append(i)
+    else:
+        odd_list.append(i)    
+
+print('even numbers list is ',even_list,'odd numbers list is ',odd_list)
