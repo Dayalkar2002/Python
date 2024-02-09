@@ -17,10 +17,10 @@ x=[10,2,3,4,5,12]
 # x['name']='Dayalkarq'
 # print(x)
 
-# sum=0
-# for i in x:
-#     sum=sum+i
-# print(sum)    
+sum=0
+for i in x:
+    sum=sum+i
+print(sum)    
 
 y=x[0]
 for i in x:
@@ -28,3 +28,4 @@ for i in x:
         y=i
 print(y)  
       
+

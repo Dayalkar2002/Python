@@ -8,7 +8,7 @@ print(fact(5))
 
 
 #basic factorial
-fact_num=int(input("ener the factorial number: "))
+fact_num=int(input("enter the factorial number: "))
 fact=1
 for i in range(1,fact_num+1):
     fact=fact*i
